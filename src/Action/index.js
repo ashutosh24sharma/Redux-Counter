@@ -1,7 +1,7 @@
-export const incNumber=(num)=>{
+export const incNumber=()=>{
    return {
     type:"INCREMENT",
-    payLoad:num,
+    
    }
 }
 

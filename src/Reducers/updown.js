@@ -7,7 +7,7 @@ const ChangeNumber=(State=initialstate,action)=>{
 
     switch(action.type){
 
-        case "INCREMENT" : return State+ action.payLoad;
+        case "INCREMENT" : return State+ 1;
         case "DICREMENT" : return State-1;
         default : return State
     }
